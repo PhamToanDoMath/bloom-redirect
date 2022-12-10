@@ -1,0 +1,3 @@
+[submodule "python-bloomfilter"]
+	path = python-bloomfilter
+	url = https://github.com/jaybaird/python-bloomfilter.git
