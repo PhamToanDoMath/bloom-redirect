@@ -6,6 +6,6 @@ importlib-metadata==5.1.0
 itsdangerous==2.1.2
 Jinja2==3.1.2
 MarkupSafe==2.1.1
-pybloom==2.0.0
+pybloom@ git+https://github.com/jaybaird/python-bloomfilter.git@2bbe01ad49965bf759e31781e6820408068862ac
 Werkzeug==2.2.2
 zipp==3.11.0
