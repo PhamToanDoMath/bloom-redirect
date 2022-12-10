@@ -1,14 +1,15 @@
 # Miniproject Distributed System
 ## Introduction
-This is a proof of concept project to prove the feasiblitiy of using Bloom Filter in authentication and redirecting users in distributed computing.
+This is a proof of concept project to prove the feasibility of using Bloom Filter in authentication and redirecting users in distributed computing.
 
-## Disclaimer 
-In this repository, I used *pybloom* - a Python library that supports multiple variance of Bloom Filter. 
+## Disclaimer
+In this repository, I used *pybloom* - a Python library that supports multiple variance of Bloom Filter.
 
 # Installation
 ```
 python python-bloomfilter/setup.py
-python api.pycurl -L  -X POST -H "Content-type:application/json" -d '{"username":"toan","password":"pham"}' http://127.0.0.1:8080/login
+python api.py
+curl -L  -X POST -H "Content-type:application/json" -d '{"username":"toan","password":"pham"}' http://127.0.0.1:8080/login
 python client-flask/api.py
 ```
 
